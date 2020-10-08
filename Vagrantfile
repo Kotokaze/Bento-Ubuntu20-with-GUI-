@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate//home/vagrant/workspace","1"]
 
     # Display the VirtualBox GUI when booting the machine
-    vb.gui = 
+    vb.gui = true
 
     # Customize the amount of memory on the VM:
     vb.memory = "1024"
@@ -73,7 +73,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt update
     apt-get update
-    Apt install -y ubuntu-desktop
+    apt install -y ubuntu-desktop
   #   apt-get install -y apache2
   SHELL
 end
