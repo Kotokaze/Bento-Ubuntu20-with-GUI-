@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
     vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate//home/vagrant/workspace","1"]
 
     # Display the VirtualBox GUI when booting the machine
-    vb.gui = false
+    vb.gui = 
 
     # Customize the amount of memory on the VM:
     vb.memory = "1024"
