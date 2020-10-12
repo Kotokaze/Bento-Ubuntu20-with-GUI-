@@ -1,6 +1,6 @@
-## Bento-Ubuntu20-with-GUI-
+# Bento-Ubuntu20-with-GUI-
 
-# Usage
+## Usage
   
   `mkdir ~/vagrant`  
   `cd ~/vagrant/`  
