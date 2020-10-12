@@ -6,6 +6,7 @@
   `cd ~/vagrant/`  
   `clone https://github.com/Kotokaze/Bento-Ubuntu20-with-GUI-.git <Preferable File Name>`  
   `cd <The DirName You Typed`  
+  `mkdir workspace`  
   `vagrant up`  
   
   wait for booting up...  
