@@ -1,4 +1,4 @@
-# Bento-Ubuntu20-with-GUI-
+# Bento-Ubuntu20-with-GUI-(VirtualBox用)
 
 ## Usage
   
